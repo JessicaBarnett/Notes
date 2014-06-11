@@ -7,6 +7,11 @@
 		//it pretty much did everything for me
 
 
+	//to switch git's default text editor to nano
+		git config --global core.editor nano
+		//documentation here: http://git-scm.com/docs/git-config
+
+
 //REPOSITORIES AND COMMITTING
 
 	//see all changed files, new files, untracked files, staged files, unstaged files, 

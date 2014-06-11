@@ -80,7 +80,8 @@
 
 	//use text editor vim 
 		vim (filename)
-		//AUTHOR NOTE: I can't figure out how to save/quit from this one...
+		//hit esc to get to "command mode"
+		//type :q to quit
 
 	//Other command-line text editors: emacs, vi
 

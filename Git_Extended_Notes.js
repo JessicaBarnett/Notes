@@ -167,6 +167,8 @@
 		//copy a branch to a remote repository
 			git pull origin BranchName
 
+		//change url of a remote repository (if you change its name, for example)
+			git remote set-url origin new_url
 
 //A COUPLE SAMPLES FROM GITHUB
 

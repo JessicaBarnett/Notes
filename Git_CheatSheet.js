@@ -119,6 +119,8 @@
 		git remote
 
 	//add a remote repo to your local repo manually
-		git remote add LinkToRepo
+		git remote add NameOfRepo LinkToRepo 
 
+	//change link to remote repo (if you change its name, for example)
+		git remote set-url origin new_url
 

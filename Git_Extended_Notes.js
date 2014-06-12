@@ -12,6 +12,11 @@
 		//documentation here: http://git-scm.com/docs/git-config
 
 
+
+//SETUP FOR WINDOWS
+	//ou can download git bash for windows here: http://git-scm.com/downloads
+
+
 //REPOSITORIES AND COMMITTING
 
 	//see all changed files, new files, untracked files, staged files, unstaged files, 
@@ -199,3 +204,33 @@
 	//to see all files in a tarball
 
 		tar ztvf myproject-0.1.tar.gz
+
+
+
+//SSH KEYS
+	//make a new ssh key
+		cd ~/.ssh
+		ssh-keygen -t rsa -C "YourEmail@email.com"
+		>Generating public/private rsa key pair.
+		>enter file in which to save the key:
+		.ssh/id_rsa
+		//it will give you a key fingerprint and a randomart image
+
+	//then go to the github website
+	//under your account settings, go to ssh key, add ssh keys
+	//name it whatever you want.  Possibly name it after the computer you're using?
+
+	//in the command line
+	ls -a //to see files
+	//should be one called id_rsa.pub
+	vim id_rsa.pub //open with vim text editor
+	//copy the ssh key in that file and paste it into the ssh key box on the github site.
+
+	//to finish the job:
+		sst -T git@github.com
+		//will  prompt for your ssh password
+
+	//then change the user/email for all commits on your computer
+		git config --global user.name "github username"
+		git config --global user.email "email"
+

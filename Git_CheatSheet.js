@@ -38,10 +38,14 @@
 		git config --global user.name "YourName"
 		git config --global user.email "YourEmail"
 
+
 //LOOKING AT YOUR HISTORY
 
 	//to see your commit history
 		git log
+
+	//Make it pretty (ish)
+		git log --pretty="oneline"
 
 	//to go back in time and see your project at a particular commit
 		git checkout idHash
@@ -59,6 +63,9 @@
 
 	//to compare changes between two commits
 		git diff commitID1 commitID2
+
+	//to go back to a previous commit
+		git revert idHash
 
 
 //WORKING WITH BRANCHES

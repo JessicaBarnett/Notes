@@ -236,3 +236,5 @@
 		git config --global user.name "github username"
 		git config --global user.email "email"
 
+	//after you make a new ssh key, you may have to change the urls of your remote repositories, 
+	//to use the ssh key instead of the public url.  If you have problems pushing to master, try that.

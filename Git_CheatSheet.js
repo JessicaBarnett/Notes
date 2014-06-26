@@ -1,3 +1,5 @@
+//someone else's cheatsheet:  http://cheat.errtheblog.com/s/git
+
 
 //EXAMPLE FROM GITHUB
 	//Create a new repository with the Terminal, add a file, and commit it
@@ -92,7 +94,7 @@
 		git merge BranchToMerge
 
 	//In case of merge conflict!!!
-		//open 'flicted file in nano.  You'll see this mess:
+		//open 'flicted file in nano.  You'll seeaddingPetsUI this mess:
 			<<<<<<< HEAD //beginning of conflict, starting with last commit in current branch (HEAD)
 			======= //separator between two versions of conflicted file
 			>>>>>>> BRANCHNAME //end of conflict
@@ -124,3 +126,6 @@
 	//change link to remote repo (if you change its name, for example)
 		git remote set-url origin new_url
 
+
+	//add a remote branch from anewly cloned project
+		git checkout branchName

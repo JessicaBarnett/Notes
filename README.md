@@ -10,3 +10,7 @@ another program and format as you will.
 If you find any issues, feel free to fork and do a pull request!!
 
 Thanks!
+
+Hey. Just changing this for the git class.
+
+William
